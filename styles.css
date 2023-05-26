@@ -1,20 +1,36 @@
 .container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .header {
     border: 1px solid red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.welcome {
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 .side-nav {
     border: 1px solid blue;
+    grid-row-start: 1;
+    grid-row-end: 5;
 }
 
 .body {
     border: 1px solid green;
 }
 
-.annoucements {
+.announcements {
     border: 1px solid black;
 }
 
