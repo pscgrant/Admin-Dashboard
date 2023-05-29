@@ -12,6 +12,11 @@
     grid-column-end: 5;
 }
 
+.bell {
+    width: 25px;
+    height: 25px;
+}
+
 .welcome {
     border: 1px solid black;
     grid-row-start: 2;
