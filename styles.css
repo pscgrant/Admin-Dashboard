@@ -26,6 +26,16 @@
     grid-row-end: 5;
 }
 
+.nav-opts {
+    display: grid;
+    border: 1px solid red;
+}
+
+.nav-settings {
+    display: grid;
+    border: 1px solid green;
+}
+
 .body {
     border: 1px solid green;
 }
