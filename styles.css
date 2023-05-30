@@ -4,6 +4,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+/*Header*/
 .header {
     display: grid;
     border: 1px solid red;
@@ -28,12 +29,18 @@
     height: 50px;
 }
 
+/*Welcome Banner*/
 .welcome {
     border: 1px solid black;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 5;
+}
+
+.user-icon {
+    width: 75px;
+    height: 75px;
 }
 
 .side-nav {
