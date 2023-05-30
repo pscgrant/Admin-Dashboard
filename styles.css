@@ -13,6 +13,11 @@
     grid-column-end: 5;
 }
 
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
 .bell {
     width: 25px;
     height: 25px;
