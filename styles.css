@@ -1,3 +1,8 @@
+
+body {
+    background: darkgray;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,21 +11,26 @@
 
 /*Header*/
 .header {
+    background-color: white;
     display: grid;
     grid-column-start: 2;
     grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
 }
 .top {
     display: grid;
     border: 1px solid red;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 
 .search-icon {
     width: 25px;
     height: 25px;
+}
+
+.search-bar {
+    color: gray;
 }
 
 .bell {
@@ -37,8 +47,6 @@
 .bottom {
     display: grid;
     border: 1px solid black;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 
 .user-icon {
@@ -47,10 +55,15 @@
 }
 
 .side-nav {
+    background-color: red;
     display: grid;
-    border: 1px solid blue;
     grid-row-start: 1;
     grid-row-end: 5;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
 }
 
 .nav-opts {
