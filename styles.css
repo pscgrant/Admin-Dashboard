@@ -58,6 +58,10 @@ body {
     grid-row-end: 5;
 }
 
+.nav-img {
+    height: 2rem;
+}
+
 .nav-icon {
     width: 25px;
     height: 25px;
