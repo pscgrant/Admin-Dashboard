@@ -1,25 +1,24 @@
 
 body {
     background: darkgray;
+    min-height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-rows: auto 4fr;
+    grid-template: auto 4fr/ 1fr 4fr
 }
 
 /*Header*/
 .header {
     background-color: white;
-    border: 5px solid blue;
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
+    grid-template: auto 1fr/ 2fr 1fr;
+    padding: 0.5rem 2rem;
 }
 .search-container {
     display: grid;
     border: 1px solid red;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 .search-icon {
@@ -34,7 +33,9 @@ body {
 
 .profile-container {
     border: 1px solid green;
+    grid-row-start: 2;
 }
+
 .bell {
     width: 25px;
     height: 25px;
