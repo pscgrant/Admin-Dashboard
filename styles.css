@@ -1,14 +1,15 @@
 
 body {
     background: darkgray;
+    margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 4fr;
 }
 
 /*Header*/
 .header {
     background-color: white;
+    border: 5px solid blue;
     display: grid;
     grid-column-start: 2;
     grid-column-end: 5;
@@ -16,7 +17,7 @@ body {
     grid-row-end: 2;
 
 }
-.top {
+.search-container {
     display: grid;
     border: 1px solid red;
 }
@@ -28,8 +29,12 @@ body {
 
 .search-bar {
     color: gray;
+    grid-column-start: ;
 }
 
+.profile-container {
+    border: 1px solid green;
+}
 .bell {
     width: 25px;
     height: 25px;
@@ -38,6 +43,14 @@ body {
 .race-helm {
     width: 50px;
     height: 50px;
+}
+
+.welcome-container {
+    border: 1px solid purple;
+}
+
+.btns-container {
+    border: 1px solid black;
 }
 
 /*Welcome Banner*/
