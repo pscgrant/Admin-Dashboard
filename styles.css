@@ -1,5 +1,5 @@
 * {
-    font-family: ;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -63,6 +63,8 @@ body {
     margin: 0;
 }
 
+/*Welcome Banner*/
+
 .welcome-container {
     display: grid;
     grid-template: 1fr 1fr/ auto 1fr;
@@ -113,17 +115,8 @@ body {
 .btns-container button:active {
     transform: scale(0.97);
 }
-/*Welcome Banner*/
-.bottom {
-    display: grid;
-    border: 1px solid black;
-}
 
-.user-icon {
-    width: 75px;
-    height: 75px;
-}
-
+/*Side Nav*/
 .side-nav {
     background-color: red;
     display: grid;
