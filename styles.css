@@ -15,9 +15,10 @@ body {
     padding: 0.5rem 2rem;
 }
 .search-container {
-    display: grid;
-    border: 1px solid red;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    grid-area: 1/1/2/2;
+    gap: 1rem;
 
 }
 
