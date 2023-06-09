@@ -120,8 +120,9 @@ body {
 .side-nav {
     background-color: red;
     display: grid;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    grid-area: 1 / 1 / -1 / 2;
+    grid-template-rows: auto auto 1fr;
+    padding: 1rem;
 }
 
 .nav-img {
