@@ -110,6 +110,9 @@ body {
     font-size: 1rem;
 }
 
+.btns-container button:active {
+    transform: scale(0.97);
+}
 /*Welcome Banner*/
 .bottom {
     display: grid;
