@@ -1,3 +1,6 @@
+* {
+    font-family: ;
+}
 
 body {
     background: darkgray;
@@ -27,14 +30,20 @@ body {
     height: 2rem;
 }
 
-.search-bar {
-    color: gray;
-    grid-column-start: ;
+.search-container .search-bar {
+    flex: 1;
+    border-radius: 20px;
+    border: none;
+    background-color: #e4ddf4;
+    height: 1.5rem;
 }
 
 .profile-container {
-    border: 1px solid green;
-    grid-row-start: 2;
+    grid-area: 1/2/2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .bell {
