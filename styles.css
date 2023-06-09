@@ -36,6 +36,7 @@ body {
     border: none;
     background-color: #e4ddf4;
     height: 1.5rem;
+    width: 50rem;
 }
 
 .profile-container {
@@ -46,14 +47,20 @@ body {
     gap: 1rem;
 }
 
-.bell {
-    width: 25px;
-    height: 25px;
+.profile-container .bell {
+    height: 1.7rem;
+    cursor: pointer;
 }
 
-.race-helm {
-    width: 50px;
-    height: 50px;
+.profile-container .race-helm {
+    border-radius: 50%;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+}
+
+.profile-container .user-name {
+    margin: 0;
 }
 
 .welcome-container {
