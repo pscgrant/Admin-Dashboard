@@ -125,24 +125,40 @@ body {
     padding: 1rem;
 }
 
+.side-nav .nav-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.side-nav .nav-title .nav-icon {
+    cursor: pointer;
+    height: 3rem;
+}
+
+.side-nav .nav-title h1 {
+    margin: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.side-nav ul {
+    padding: 0;
+}
+
+.side-nav ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .nav-img {
     height: 2rem;
+    cursor: pointer;
 }
 
-.nav-icon {
-    width: 25px;
-    height: 25px;
-}
-
-.nav-opts {
-    display: grid;
-    border: 1px solid red;
-}
-
-.nav-settings {
-    display: grid;
-    border: 1px solid green;
-}
+/*Main*/
 
 .content {
     border: 1px solid green;
