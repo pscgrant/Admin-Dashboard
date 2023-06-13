@@ -228,6 +228,11 @@ body {
     cursor: pointer;
     height: 2rem;
 }
+
+.content .cards .card .action-block .card-btn:active {
+    transform: scale(0.97);
+}
+
 .content .cards .card .text-block .card-img {
     background: gray;
     height: 10rem;
