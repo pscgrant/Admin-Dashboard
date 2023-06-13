@@ -237,10 +237,72 @@ body {
     background: gray;
     height: 10rem;
 }
-.announcements {
-    border: 1px solid black;
+/*Announcements*/
+
+.content .announ-trend {
+    display: grid;
+    grid-template: 1fr 1fr;
+    gap: 1rem;
 }
 
-.trending {
-    border: 1px solid purple;
+.content .announ-trend > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .announ-trend > div h4 {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.content .announ-trend .announ-content,
+.content .announ-trend .trending-content {
+    background-color: white;
+    flex: 1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+}
+
+.content .announ-trend .announcements h6,
+.content .announ-trend .announcements p {
+    margin: 0;
+}
+
+.content .announ-trend .announcements h6 {
+    font-size: 0.9rem;
+}
+
+.content .announ-trend .announcements p {
+    opacity: 0.7;
+}
+
+.content .announ-trend .announcements p a {
+    color: inherit;
+}
+
+.content .announ-trend .announcements .announcement-border {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.content .announ-trend .trend {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content .announ-trend .trend img.trend-img {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.content .announ-trend .trend .trend-text {
+    opacity: 0.7;
 }
